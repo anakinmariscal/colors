@@ -1,0 +1,140 @@
+body {
+    background-color: white;
+    transition: background-color 0.2s ease;
+}
+
+body:has(.red:hover) {
+    background-color: red;
+}
+
+body:has(.yellow:hover) {
+    background-color: rgb(255, 255, 0);
+}
+
+body:has(.blue:hover) {
+    background-color: blue;
+}
+
+body:has(.green:hover) {
+    background-color: green;
+}
+
+body:has(.purple:hover) {
+    background-color: purple;
+}
+
+body:has(.orange:hover) {
+    background-color: orange;
+}
+
+body:has(.turquoise:hover) {
+    background-color: turquoise;
+}
+
+body:has(.vermilion:hover) {
+    background-color: #E73121;
+}
+
+body:has(.amber:hover) {
+    background-color: #FFBF00;
+}
+
+body:has(.yellow-green:hover) {
+    background-color: yellowgreen;
+}
+
+body:has(.blue-violet:hover) {
+    background-color: blueviolet;
+}
+
+body:has(.teal:hover) {
+    background-color: teal;
+}
+
+body:has(.red-violet:hover) {
+    background-color: #c71585;
+}
+
+body:has(.red-orange:hover) {
+    background-color: #FF4B33;
+}
+
+td {
+    color: white !important;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+}
+
+h1 {
+    color: black;
+}
+
+table {
+    border: 1px solid black;
+    border-spacing: 5px;
+    margin: auto;
+}
+
+th {
+    color: black;
+}
+
+td {
+    padding: 10px;
+}
+
+.red {
+    background-color: red !important;
+}
+
+.yellow {
+    background-color: rgb(255, 255, 0) !important;
+}
+
+.blue {
+    background-color: blue !important;
+}
+
+.green {
+    background-color: green !important;
+}
+
+.purple {
+    background-color: purple !important;
+}
+
+.orange {
+    background-color: orange !important;
+}
+
+.turquoise {
+    background-color: turquoise !important;
+}
+
+.vermilion {
+    background-color: #E73121 !important;
+}
+
+.amber {
+    background-color: #FFBF00 !important;
+}
+
+.yellow-green {
+    background-color: yellowgreen !important;
+}
+
+.blue-violet {
+    background-color: blueviolet !important;
+}
+
+.teal {
+    background-color: teal !important;
+}
+
+.red-violet {
+    background-color: #c71585 !important;
+}
+
+.red-orange {
+    background-color: #FF4B33 !important;
+}
